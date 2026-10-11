@@ -49,6 +49,10 @@ export const site = {
       label: "Featured work",
       heading: "A real system, running in a real shop",
     },
+    process: {
+      label: "How I work",
+      heading: "Four simple steps, from first chat to support",
+    },
   },
 
   nav: [
@@ -109,6 +113,7 @@ export const site = {
   ],
 
   about: {
+    label: "About",
     heading: "I build systems I use in my own business",
     paragraphs: [
       "I'm Annor Sampson. I studied data science, and I run GENX CHOICE ENTERPRISE, so I know what it takes to manage stock, staff and money in a real shop.",

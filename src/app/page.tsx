@@ -1,5 +1,7 @@
+import About from "@/components/About";
 import FeaturedWork from "@/components/FeaturedWork";
 import Hero from "@/components/Hero";
+import Process from "@/components/Process";
 import Services from "@/components/Services";
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
       <Hero />
       <Services />
       <FeaturedWork />
+      <About />
+      <Process />
     </main>
   );
 }
