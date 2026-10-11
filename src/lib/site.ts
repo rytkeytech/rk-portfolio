@@ -32,8 +32,10 @@ export const site = {
     alt: "Portrait of Annor Sampson",
   },
 
-  // Short logo text, used until the real RK logo image is added (task 24)
-  logoMark: "RK",
+  // RK logo with a see-through background (file lives in public/images)
+  logo: {
+    src: "/images/logo.webp",
+  },
 
   // Button text
   labels: {

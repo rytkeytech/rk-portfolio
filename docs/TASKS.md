@@ -83,7 +83,7 @@ For each: build it, check it at phone width (Chrome DevTools, 360px) and desktop
 
 ## Phase 5: Polish and launch
 
-- [ ] **24. Real photo and RK logo** (WebP photo, SVG or PNG logo)
+- [x] **24. Real photo and RK logo** (WebP photo, SVG or PNG logo)
 - [ ] **25. SEO** — page titles, descriptions, Open Graph image, sitemap, robots
 - [ ] **26. Speed check** — Lighthouse on mobile, aim for 90+, fix what it flags
 - [ ] **27. QA + code review** — run the QA tester and strict reviewer prompts from the guide
