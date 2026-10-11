@@ -44,7 +44,7 @@ Tick `[x]` when done. Work top to bottom; the site works at every stage.
 For each: build it, check it at phone width (Chrome DevTools, 360px) and desktop, commit.
 
 - [x] **9. Navbar** (logo, links, mobile menu that opens and closes)
-- [ ] **10. Hero** (photo placeholder for now)
+- [x] **10. Hero** (photo placeholder for now)
 - [ ] **11. Services** (4 cards, each with its own WhatsApp message)
 - [ ] **12. Featured work** (POS card, screenshot placeholder)
 - [ ] **13. About + How I work**
