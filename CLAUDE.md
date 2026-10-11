@@ -14,9 +14,9 @@ Goal: win clients (small businesses in Ghana) for websites, POS/inventory system
 Next.js 16 (App Router, `src/` folder) · TypeScript · Tailwind CSS · Zod · Resend · Vercel
 
 ## Rules
-1. **Plan first.** For each task, explain the plan in plain words and wait for "go ahead" before writing code.
-2. **Small changes only.** One task per change. Do not touch files unrelated to the task.
-3. **Give complete files.** Show the full file with its exact path, ready to paste. No partial snippets.
+1. **Work automatically.** Take the next unticked task in `docs/TASKS.md`, build it, and run `npm run build` and `npm run lint`. Fix any errors yourself before moving on.
+2. **Small changes only.** One task per commit. Do not touch files unrelated to the task.
+3. **Commit and push.** After each task passes the build: tick it in `docs/TASKS.md`, `git commit` with a clear message, then `git push` (Vercel deploys automatically).
 4. **Explain simply.** The owner is relearning web development. Explain new concepts briefly, without jargon.
 5. **Mobile first.** Build for 360px wide first, then larger screens. Buttons and links at least 44px tall.
 6. **Follow DESIGN.md.** Use only its colors, fonts and spacing. Don't invent new styles.
@@ -26,7 +26,8 @@ Next.js 16 (App Router, `src/` folder) · TypeScript · Tailwind CSS · Zod · R
 10. **No real customer data** anywhere, including screenshots.
 11. **Never connect to the GENXCHOICE POS or its Supabase project.**
 12. **Don't add new packages** without explaining why and getting approval.
-13. **After each task:** say how to test it (phone width + desktop), then remind the owner to commit.
+13. **After each phase:** stop and give a short summary: what was built, a 1–2 line plain explanation of any new concept, and what to check on the live site on a phone.
+14. **Stop and ask** only for: new packages, anything involving secrets or accounts, or anything that deletes files.
 
 ## Contact details
 - WhatsApp: 0549572669 (international format: 233549572669)

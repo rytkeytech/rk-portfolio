@@ -7,22 +7,22 @@ Tick `[x]` when done. Work top to bottom; the site works at every stage.
 
 ## Phase 0: Setup (the site goes live empty on day one)
 
-- [ ] **1. Install tools**
+- [x] **1. Install tools**
   Node.js (LTS), Git, VS Code.
   *Done when:* `node -v` and `git -v` show versions in the terminal.
 
-- [ ] **2. Create the Next.js app in `rk-portfolio`**
+- [x] **2. Create the Next.js app in `rk-portfolio`**
   TypeScript, Tailwind, App Router, `src/` folder, ESLint.
   *Done when:* `npm run dev` shows the starter page at http://localhost:3000.
 
-- [ ] **3. Add `CLAUDE.md` rules file**
+- [x] **3. Add `CLAUDE.md` rules file**
   *Done when:* file is in the project root.
 
-- [ ] **4. Git + GitHub**
+- [x] **4. Git + GitHub**
   Create repo `rk-portfolio`, first commit, push.
   *Done when:* code is visible on github.com.
 
-- [ ] **5. Deploy to Vercel**
+- [x] **5. Deploy to Vercel**
   Import the GitHub repo into Vercel.
   *Done when:* you can open your `.vercel.app` link on your phone.
 
