@@ -26,10 +26,15 @@ export const site = {
       "Hello Annor, I saw the GENXCHOICE POS and I'd like a system like this for my business.",
   },
 
+  // Short logo text, used until the real RK logo image is added (task 24)
+  logoMark: "RK",
+
   // Button text
   labels: {
     whatsapp: "Chat on WhatsApp",
     seeWork: "See my work",
+    openMenu: "Open menu",
+    closeMenu: "Close menu",
   },
 
   nav: [
