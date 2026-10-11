@@ -32,7 +32,7 @@ Tick `[x]` when done. Work top to bottom; the site works at every stage.
   Colors from DESIGN.md in `globals.css`; Sora + Manrope via `next/font`.
   *Done when:* a test heading shows Sora in brand red.
 
-- [ ] **7. Site config**
+- [x] **7. Site config**
   `lib/site.ts` (name, phone, email, services, case study text) and `lib/whatsapp.ts` (builds wa.me links).
   *Done when:* changing the phone number in one place would update the whole site.
 
