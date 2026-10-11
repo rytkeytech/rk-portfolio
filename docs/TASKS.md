@@ -28,7 +28,7 @@ Tick `[x]` when done. Work top to bottom; the site works at every stage.
 
 ## Phase 1: Foundation
 
-- [ ] **6. Design tokens + fonts**
+- [x] **6. Design tokens + fonts**
   Colors from DESIGN.md in `globals.css`; Sora + Manrope via `next/font`.
   *Done when:* a test heading shows Sora in brand red.
 
