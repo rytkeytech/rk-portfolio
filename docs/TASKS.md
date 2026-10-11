@@ -50,7 +50,7 @@ For each: build it, check it at phone width (Chrome DevTools, 360px) and desktop
 - [x] **13. About + How I work**
 - [x] **14. Contact section** (form UI only, not sending yet)
 - [x] **15. Footer**
-- [ ] **16. 404 page**
+- [x] **16. 404 page**
 
 *Phase done when:* the home page matches the mockup on phone and desktop, and is live on Vercel.
 

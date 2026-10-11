@@ -81,6 +81,13 @@ export const site = {
     rights: "All rights reserved.",
   },
 
+  notFound: {
+    label: "Page not found",
+    heading: "This page doesn't exist",
+    text: "The link may be old or typed wrongly. Go back to the home page or message me on WhatsApp.",
+    home: "Back to home",
+  },
+
   nav: [
     { label: "Services", href: "/#services" },
     { label: "Work", href: "/#work" },
