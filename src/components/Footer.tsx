@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 import { whatsappLink } from "@/lib/whatsapp";
 
 // "use cache" lets Next.js read the date while pre-building the page.
-// The year is refreshed automatically each time the site is rebuilt.
+// Next.js refreshes the saved page by itself, so the year stays correct.
 async function getYear() {
   "use cache";
   return new Date().getFullYear();
