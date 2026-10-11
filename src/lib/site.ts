@@ -53,6 +53,26 @@ export const site = {
       label: "How I work",
       heading: "Four simple steps, from first chat to support",
     },
+    contact: {
+      label: "Contact",
+      heading: "Tell me what your business needs",
+    },
+  },
+
+  // Contact section text and form field labels
+  contactForm: {
+    intro:
+      "WhatsApp is the fastest way to reach me. You can also fill in the form and I'll reply within 24 hours.",
+    fields: {
+      name: { label: "Your name", placeholder: "e.g. Ama Mensah" },
+      business: { label: "Business name", placeholder: "e.g. Ama's Boutique" },
+      phone: { label: "Phone number", placeholder: "e.g. 024 000 0000" },
+      need: {
+        label: "What do you need?",
+        placeholder: "e.g. A system to track my stock and sales",
+      },
+    },
+    submit: "Send message",
   },
 
   nav: [

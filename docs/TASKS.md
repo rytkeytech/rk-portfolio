@@ -48,7 +48,7 @@ For each: build it, check it at phone width (Chrome DevTools, 360px) and desktop
 - [x] **11. Services** (4 cards, each with its own WhatsApp message)
 - [x] **12. Featured work** (POS card, screenshot placeholder)
 - [x] **13. About + How I work**
-- [ ] **14. Contact section** (form UI only, not sending yet)
+- [x] **14. Contact section** (form UI only, not sending yet)
 - [ ] **15. Footer**
 - [ ] **16. 404 page**
 

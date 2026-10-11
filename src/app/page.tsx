@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import ContactSection from "@/components/ContactSection";
 import FeaturedWork from "@/components/FeaturedWork";
 import Hero from "@/components/Hero";
 import Process from "@/components/Process";
@@ -12,6 +13,7 @@ export default function Home() {
       <FeaturedWork />
       <About />
       <Process />
+      <ContactSection />
     </main>
   );
 }
