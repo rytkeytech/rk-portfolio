@@ -33,6 +33,8 @@ export const site = {
   labels: {
     whatsapp: "Chat on WhatsApp",
     seeWork: "See my work",
+    readCaseStudy: "Read case study",
+    screenshotSoon: "Screenshot coming soon",
     openMenu: "Open menu",
     closeMenu: "Close menu",
   },
@@ -42,6 +44,10 @@ export const site = {
     services: {
       label: "Services",
       heading: "What I can build for your business",
+    },
+    work: {
+      label: "Featured work",
+      heading: "A real system, running in a real shop",
     },
   },
 
