@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "@/components/ui/Button";
 import { site } from "@/lib/site";
 import { whatsappLink } from "@/lib/whatsapp";
@@ -20,13 +21,16 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Photo placeholder: the real photo is added in task 24 */}
-        <div
-          aria-hidden="true"
-          className="mx-auto flex aspect-[4/5] w-full max-w-sm items-center justify-center rounded-card border border-white/15 font-heading text-7xl font-extrabold text-brand-yellow"
-        >
-          {site.logoMark}
-        </div>
+        {/* next/image sends each phone a size that fits its screen, to save data */}
+        <Image
+          src={site.photo.src}
+          alt={site.photo.alt}
+          width={800}
+          height={1000}
+          sizes="(min-width: 424px) 384px, calc(100vw - 40px)"
+          preload
+          className="mx-auto w-full max-w-sm rounded-card border border-white/15"
+        />
       </div>
     </section>
   );
