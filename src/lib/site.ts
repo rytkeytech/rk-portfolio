@@ -75,6 +75,12 @@ export const site = {
     submit: "Send message",
   },
 
+  footer: {
+    whatsappLabel: "WhatsApp",
+    emailLabel: "Email",
+    rights: "All rights reserved.",
+  },
+
   nav: [
     { label: "Services", href: "/#services" },
     { label: "Work", href: "/#work" },
