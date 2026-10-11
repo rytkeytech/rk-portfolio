@@ -37,6 +37,14 @@ export const site = {
     closeMenu: "Close menu",
   },
 
+  // Small label and big heading at the top of each section
+  sections: {
+    services: {
+      label: "Services",
+      heading: "What I can build for your business",
+    },
+  },
+
   nav: [
     { label: "Services", href: "/#services" },
     { label: "Work", href: "/#work" },

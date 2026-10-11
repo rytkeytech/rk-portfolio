@@ -45,7 +45,7 @@ For each: build it, check it at phone width (Chrome DevTools, 360px) and desktop
 
 - [x] **9. Navbar** (logo, links, mobile menu that opens and closes)
 - [x] **10. Hero** (photo placeholder for now)
-- [ ] **11. Services** (4 cards, each with its own WhatsApp message)
+- [x] **11. Services** (4 cards, each with its own WhatsApp message)
 - [ ] **12. Featured work** (POS card, screenshot placeholder)
 - [ ] **13. About + How I work**
 - [ ] **14. Contact section** (form UI only, not sending yet)
