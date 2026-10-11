@@ -36,7 +36,7 @@ Tick `[x]` when done. Work top to bottom; the site works at every stage.
   `lib/site.ts` (name, phone, email, services, case study text) and `lib/whatsapp.ts` (builds wa.me links).
   *Done when:* changing the phone number in one place would update the whole site.
 
-- [ ] **8. Shared components**
+- [x] **8. Shared components**
   `ui/Button.tsx` (red, green, outline) and floating `WhatsAppButton.tsx`.
   *Done when:* the floating button opens WhatsApp with a pre-filled message on your phone.
 

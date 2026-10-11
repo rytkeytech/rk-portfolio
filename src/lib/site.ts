@@ -26,6 +26,12 @@ export const site = {
       "Hello Annor, I saw the GENXCHOICE POS and I'd like a system like this for my business.",
   },
 
+  // Button text
+  labels: {
+    whatsapp: "Chat on WhatsApp",
+    seeWork: "See my work",
+  },
+
   nav: [
     { label: "Services", href: "/#services" },
     { label: "Work", href: "/#work" },
